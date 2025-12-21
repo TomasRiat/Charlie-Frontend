@@ -31,7 +31,7 @@ export async function POST(request: Request) {
         external_reference: discordUserId,
         
 
-         notification_url: "https://31.97.24.122:5000/webhook", 
+         notification_url: "https://botcharlie.vercel.app/api/webhook", 
 
         // PRUEBA DE FUEGO: Usamos Google para descartar problemas con localhost
         back_urls: {
